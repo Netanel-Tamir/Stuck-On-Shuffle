@@ -1,0 +1,18 @@
+# Tested with Python 3.11 on an NVIDIA H200 (CUDA 12.8 wheels of torch). Apple silicon (MPS)
+# is supported by the same requirements; install the default torch wheel for macOS.
+# transformers >= 5.9 is required: the WeMM / UEmbed backbones are `qwen3_5`
+# models, which older releases do not ship.
+torch>=2.6
+torchvision>=0.21   # imported at module load by qwen-vl-utils
+transformers>=5.9,<6
+peft>=0.18
+safetensors>=0.5
+huggingface_hub>=0.30
+qwen-vl-utils>=0.0.14
+pillow>=10
+numpy>=1.26
+pandas>=2.1
+
+# Only needed for the walkthrough notebook
+jupyter
+matplotlib

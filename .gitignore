@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.env
+.venv/
+venv/
+demo_temp.ipynb

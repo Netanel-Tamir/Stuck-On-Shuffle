@@ -1,0 +1,11 @@
+{
+  "gamma": 0.0,
+  "depth": 24,
+  "n_lora_modules": 24,
+  "source_checkpoint": "final_wemm2b_lines/epoch_1 (LoRA epoch 1, LiNeS gamma=0 baked)",
+  "formula": "lambda(l) = gamma + (1 - gamma) * l / (depth - 1), l 0-based",
+  "paper": "arXiv:2410.17146",
+  "baked_by": "bake_lines.py",
+  "note": "LiNeS collapsed into lora_B. Load with PeftModel.from_pretrained and do NOT apply the edit again. Eval only \u2014 never resume training from this.",
+  "base_model": "tencent/WeMM-Embedding-2B"
+}

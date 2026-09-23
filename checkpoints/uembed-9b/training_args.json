@@ -1,0 +1,25 @@
+{
+  "train_batch_size": 256,
+  "epochs": 6,
+  "lr": 5e-05,
+  "optimizer": "adamw",
+  "margin": 0.05,
+  "lines": true,
+  "lines_gamma": 0.0,
+  "max_length": 512,
+  "seed": 42,
+  "lora_rank": 4,
+  "lora_alpha": null,
+  "triplet_type": [
+    "all"
+  ],
+  "length_variant": [
+    "sq_lp"
+  ],
+  "lr_schedule": "constant",
+  "lora_targets": "qkvo",
+  "base_model": "Alibaba-NLP/UEmbed-9B",
+  "run_name": "final_uembed9b_lines",
+  "epoch": 1,
+  "dataset": "NetanelTamir/Stuck-On-Shuffle-Finetuning-Dataset (finetuning_dataset.csv, sq_lp split)"
+}
