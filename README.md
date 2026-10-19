@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://stuck-on-shuffle.github.io"><b>Project Page</b></a> &nbsp;|&nbsp;
   <!-- TODO: add the arXiv link when available -->
-  <a href=""><b>arXiv</b></a> &nbsp;|&nbsp;
+  <a href="https://arxiv.org/abs/2610.22602"><b>arXiv</b></a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/datasets/NetanelTamir/Stuck-On-Shuffle-SABER"><b>SABER Benchmark</b></a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/datasets/NetanelTamir/Stuck-On-Shuffle-Finetuning-Dataset"><b>Finetuning Dataset</b></a>
 </p>
