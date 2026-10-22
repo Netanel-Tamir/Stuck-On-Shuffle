@@ -298,7 +298,7 @@ If you use SABER, the finetuning dataset, or our models and code in your researc
 ```bibtex
 @article{tamir2026stuck,
   title={Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models},
-  author={Tamir, Netanel Y. and Green, Michael and Tzachor, Issar and Shimshi, Or and Samuel, Dvir and Patashnik, Or and Ben-Ari, Rami},
+  author={Tamir, Netanel Y and Green, Michael and Tzachor, Issar and Shimshi, Or and Samuel, Dvir and Patashnik, Or and Ben-Ari, Rami},
   journal={arXiv preprint arXiv:2610.22602},
   year={2026}
 }
